@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import { useEffect, useState } from "react";
-import { dummyAddressData } from "../assets/assets";
 import type { Address } from "../types";
 import {
   ArrowLeft,
